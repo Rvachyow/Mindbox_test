@@ -1,0 +1,22 @@
+.input {
+  border-bottom: 1px solid #e3e3e3;
+  height: 70px;
+}
+.container {
+  height: 100%;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.arrow {
+  color: gainsboro;
+}
+.input__actions {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  input {
+    flex: 1 1 auto;
+  }
+}
