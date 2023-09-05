@@ -1,5 +1,5 @@
 import { memo } from "react";
-// import completImg from "../../svg/complet.png";
+import completImg from "../../svg/complet.png";
 import style from "./styles.module.scss";
 
 export const TodoComplet = memo(
@@ -14,7 +14,7 @@ export const TodoComplet = memo(
   }) => {
     return (
       <div onClick={() => handleToggleStatus(id)} className={style.round}>
-        {complet ? <img src="" alt="" /> : null}
+        {complet ? <img src={completImg} alt="" /> : null}
       </div>
     );
   }
